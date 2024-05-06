@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+a { 
+    text-decoration: none;
+}
+
+.main-container {
+    width: 100%;
+    margin:  auto;
+    background-color: rgb(32, 32, 32);
+}
+
+/* button */
+.btn {
+    padding: 1rem 1.5rem;
+    background: black;
+    border: 1.5px solid black;
+    cursor: pointer;
+}
+
+/* title */
+.pre-title {
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color: grey;
+    position: relative;
+    padding-left: 40px;
+    width: fit-content;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.pre-title::before {
+    content: "";
+    width: 20px;
+    height: 1px;
+    position: absolute;
+    background: white;
+    left: 0;
+    top: 50%;
+}
+
+.pojok a {
+    color: white;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    transition: 0.2s ease-in-out;
+    margin-top: 0;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin-right: 200;
+    margin-top: 10;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+
+.logo a {
+    color: white;
+    margin-left: 30;
+    margin-top: 10;
+    justify-content: start;
+}
+
+nav ul li a {
+    color: white;
+    margin-right: 0;
+}
+
+/* Home Section
+#home {
+    height: 450px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.home-name {
+    font-size: 3rem;
+    font-weight: 700px;
+    margin: 0.5rem 0 1 rem;
+    color: black;
+}
+
+.home-right img {
+    max-width: 100%;
+    width: 200;
+    border-radius: 0.7rem;
+}
+
+.home-right {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    padding-left: 3rem;
+    padding-bottom: 5rem;
+} */
+
+.body {
+    background-color: rgb(32, 32, 32);
+}
+
+.kiri {
+    color: whitesmoke;
+    margin-top: 50;
+    justify-content: flex-start;
+    margin-left: 45;
+}
+
+.Nama1 {
+    margin-top: 0;
+    font-size: 50px;
+}
+
+.Nama2 {
+    margin-top: 0;
+    font-size: 50px;
+}
+
+.titik {
+    color: rgb(255, 221, 0);
+    margin-top: -42px;
+    margin-left: 175;
+    margin-bottom: 40px;
+}
+
+.garis {
+    background-color: rgb(144, 0, 255);
+    height: 5px;
+    width: 20%;
+    margin-top: 10;
+    border-radius: 50px;
+    margin-left: 45;
+}
+
+.Hello {
+    color: rgb(255, 221, 0);
+    font-family:'fantasy' sans-serif;
+    font-size: 20px;
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    height: 700;
+    margin-left: -1400;
+    margin-top: -10;
+}
+
+.kanan {
+    margin-top: 50;
+    justify-content: end;
+}
+
+.intro {
+    color: rgb(255, 221, 0);
+    font-family:'Monospace' sans-serif;
+    font-size: 15px;
+    margin-bottom: 10;
+    margin-left: -450;
+}
+
+.Nama {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-left: -450;
+}
+
+
+.desc {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin-top: 20;
+    margin-left: 45;
+    width: 35%;
+}
+
+.isi {
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+.skills {
+    background-color:rgb(49, 49, 49);
+    align-content: center;  
+    margin-top: 0;
+}
+
+.judul-skills {
+    margin-top:30;
+    margin-left: 690;
+    justify-self: center;
+    font-size: 20px;
+    color: gold;
+}
+
+.isi-skills {
+    margin-top:20;
+    margin-left: 570;
+    color: whitesmoke;
+    align-items: center;
+    font-size: 30px;
+}
+
+.isi2-skills {
+    margin-top:10;
+    margin-left: 400;
+    color: whitesmoke;
+    font-size: 10px;
+    width: 75%;
+}
+
+.kotak {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    background: rgb(49, 49, 49);
+    height: 60%;
+}
+
+.kotak1 {
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    margin-top: 40;
+}
+
+.ps {
+    margin-top: 25;
+    margin-left: 25;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.t-ps {
+    font-size: 50px;
+    margin-left: -20;
+    margin-top: 30;
+    color: white;
+}
+
+.ai {
+    margin-top: 25;
+    margin-left: 25;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.t-ai {
+    font-size: 50px;
+    margin-left: -8;
+    margin-top: 30;
+    color: white;
+}
+
+.fig {
+    margin-top: 25;
+    margin-left: 25;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.t-fig {
+    font-size: 50px;
+    margin-left: 30;
+    margin-top: 30;
+    color: white;
+}
+
+.vs {
+    margin-top: 25;
+    margin-left: 25;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.t-vs {
+    font-size: 50px;
+    margin-left: 10;
+    margin-top: 30;
+    color: white;
+}
+
+.code {
+    background-color:rgb(28, 28, 28);
+    align-content: center;  
+    margin-top: -50;
+}
+
+.judul-code {
+    margin-top:30;
+    margin-left: 710;
+    justify-self: center;
+    font-size: 20px;
+    color: gold;
+}
+
+.isi-code {
+    margin-top:10;
+    margin-left: 560;
+    color: whitesmoke;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.design {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    background: rgb(28, 28, 28);
+    height: 80%;
+}
+
+.des {
+    background-color: rgb(0, 0, 0);
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+    margin-top: 40;
+}
+
+.d1 {
+    margin-top: 25;
+    margin-left: 25;
+    width: 350px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+.kontak {
+    background-color:rgb(49, 49, 49);
+    align-content: center;  
+    margin-top: 0;
+    height: 60%;
+}
+
+.judul-kontak {
+    margin-top:-160;
+    margin-left: 710;
+    justify-self: center;
+    font-size: 20px;
+    color: rgb(180, 180, 180);
+}
+
+.isi-kontak {
+    margin-top:10;
+    margin-left: 560;
+    color: whitesmoke;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.desc-kontak {
+    justify-content: center;
+    font-size: 20px;
+    margin-left: 510;
+    margin-top: -240;
+    color: aliceblue;
+}
+
+.b1 {
+    margin-top: 50;
+    justify-content: center;
+    gap: 5rem;
+    margin-left: 20;
+    margin-right: 20;
+    display: flex;
+}
+
+.box {
+    background-color: antiquewhite;
+    height: 40;
+    width: 250;
+    border-color: rgb(255, 255, 255);
+    border-width: 100%;
+    border-radius: 20px;
+}
+
+.em {
+    margin-top: 5;
+    height: 30;
+    width: 30px;
+    margin-left: 15;
+}
+
+.t-em {
+    color: rgb(0, 0, 0);
+    margin-left: 55;
+    margin-top: -25;
+    font-weight: bold;
+}
